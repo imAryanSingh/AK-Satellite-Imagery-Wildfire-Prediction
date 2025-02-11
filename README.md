@@ -1,5 +1,7 @@
 # Alaska-Wildfire-Prediction-Using-Satellite-Imagery
+
 **Mentors:** Arghya Kusum Das (akdas -at- alaska.edu) and Yali Wang (ywang35 -at- alaska.edu)
+
 **Overview:** Given Alaska’s unique wildfire patterns, where large-scale fires occur annually in boreal forests, tundra, and remote wilderness, predicting fire-prone areas can help mitigate disasters and optimize resource allocation. The presence of vegetation (fuel) is necessary for a fire, but the determining factors are weather conditions (humidity, wind speed, temperature) and an ignition source (lightning, human activity, etc.). 
 This project aims to develop a hybrid deep learning model to predict wildfire risk in Alaska by integrating optical, thermal, and synthetic aperture radar (SAR) satellite imagery with ground-based weather data.
 Traditional wildfire prediction relies on weather data, historical fire records, and human observations, which can be delayed or inaccurate in remote areas like Alaska. In contrast, satellite imagery provides real-time, high-resolution insights into vegetation health, thermal anomalies, burn severity mapping, soil moisture, fuel dryness, and even cloud-penetrating fire detection.
@@ -21,6 +23,7 @@ Additional ground data sources:
 3). Alaska Fire Service (AFS) Wildfire Data: Historical ignition source data (lightning, human activity).
 
 **Current Status:** This project is currently in the research stage.
+
 **Expected Outcomes:** 
 This project aims to develop a deep-learning model that predicts wildfire risk in Alaska using a combination of satellite and ground-based weather data. The expected outcome of this project would involve both the dataset preprocessing pipeline and the performance of the developed model. Especially, the dataset preprocessing would include how to process the pre-fire and post-fire images efficiently and integrate the ground-based data with satellite imagery. Expected outcomes include:
 1). Data pipeline development:
@@ -33,8 +36,12 @@ A web-based GIS dashboard to visualize fire-prone regions in Alaska;
 A report on model performance, fire risk metrics, and deployment feasibility.
 3). About fire risk metrics:
 Fire risk classification: This is the **minimum viable product (MVP)** of this project. Given pre-fire satellite images, the model predicts the probability of a fire occurring within a defined time frame like 1 month, 3 months, or 6 months. The classifications should be "High Fire Risk," "Moderate Risk," or "No Risk."
+
 **Required Skills:** Python. Experience with deep learning and machine learning.
+
 **Code Challenge:** Experience with multi-band satellite imagery, geospatial data processing, and remote sensing.
+
 **Source Code:** [https://github.com/YaliWang2019/AK-Satellite-Imagery-Wildfire-Prediction](https://github.com/YaliWang2019/AK-Satellite-Imagery-Wildfire-Prediction) (New Project)
+
 **Discussion Forum:** [https://github.com/YaliWang2019/AK-Satellite-Imagery-Wildfire-Prediction/discussions](https://github.com/YaliWang2019/AK-Satellite-Imagery-Wildfire-Prediction/discussions)
 
