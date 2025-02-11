@@ -30,25 +30,25 @@ Additional ground data sources:
 **Expected Outcomes:** 
 This project aims to develop a deep-learning model that predicts wildfire risk in Alaska using a combination of satellite and ground-based weather data. The expected outcome of this project would involve both the dataset preprocessing pipeline and the performance of the developed model. Especially, the dataset preprocessing would include how to process the pre-fire and post-fire images efficiently and integrate the ground-based data with satellite imagery. Expected outcomes include:
 
+Minimum viable product (MVP): 
+
+Fire risk classification: Given pre-fire satellite images, the model predicts the probability of a fire occurring within a defined time frame like 1 month, 3 months, or 6 months. The classifications should be "High Fire Risk," "Moderate Risk," or "No Risk."
+
 1). Data pipeline development:
 
 Preprocessing satellite images: Band selection, geospatial cropping, cloud removal (For this step, we are mostly interested in analyzing Sentinel-2 data);
 
 Synthetic Aperture Radar (SAR) analysis: Extracting fuel moisture & terrain features (For this step, we are mostly interested in extracting information like vegetation density and soil moisture from Sentinel-1 SAR data);
 
-Time-series weather data integration: Incorporating temperature, wind, and humidity.
+Time-series weather data integration: Incorporating temperature, wind, and humidity. We have access to past decades of weather data for almost the past 30 years for multiple different places in Alaska.
 
 2). Model training and prediction:
 
-A hybrid model such as CNN-LSTM that analyzes satellite data and time-series weather trends;
+A hybrid model such as CNN-LSTM that analyzes satellite data and time-series weather trends (CNN-LSTM is just an example. We are open to multiple different types of analysis methodology);
 
 A web-based GIS dashboard to visualize fire-prone regions in Alaska;
 
 A report on model performance and fire risk metrics.
-
-3). About fire risk metrics:
-
-Fire risk classification: This is the **minimum viable product (MVP)** of this project. Given pre-fire satellite images, the model predicts the probability of a fire occurring within a defined time frame like 1 month, 3 months, or 6 months. The classifications should be "High Fire Risk," "Moderate Risk," or "No Risk."
 
 **Required Skills:** Python. Experience with deep learning and machine learning.
 
