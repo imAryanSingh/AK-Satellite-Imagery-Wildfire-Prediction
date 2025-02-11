@@ -18,23 +18,36 @@ Satellite choices:
 | ALOS-2 (JAXA) | 10m - 100m | 14 days | L-band SAR for detecting dry fuel and terrain changes. |
 
 Additional ground data sources:
+
 1). ERA5 Climate Reanalysis (ECMWF): Provides historical & real-time temperature, wind, and humidity data.
+
 2). NOAA NWS Weather Data: Near real-time humidity, wind, and temperature.
+
 3). Alaska Fire Service (AFS) Wildfire Data: Historical ignition source data (lightning, human activity).
 
 **Current Status:** This project is currently in the research stage.
 
 **Expected Outcomes:** 
 This project aims to develop a deep-learning model that predicts wildfire risk in Alaska using a combination of satellite and ground-based weather data. The expected outcome of this project would involve both the dataset preprocessing pipeline and the performance of the developed model. Especially, the dataset preprocessing would include how to process the pre-fire and post-fire images efficiently and integrate the ground-based data with satellite imagery. Expected outcomes include:
+
 1). Data pipeline development:
+
 Preprocessing satellite images: Band selection, geospatial cropping, cloud removal;
+
 Synthetic Aperture Radar (SAR) analysis: Extracting fuel moisture & terrain features;
+
 Time-series weather data integration: Incorporating temperature, wind, and humidity.
+
 2). Model training and prediction:
+
 A hybrid model such as CNN-LSTM that analyzes satellite data and time-series weather trends;
+
 A web-based GIS dashboard to visualize fire-prone regions in Alaska;
+
 A report on model performance, fire risk metrics, and deployment feasibility.
+
 3). About fire risk metrics:
+
 Fire risk classification: This is the **minimum viable product (MVP)** of this project. Given pre-fire satellite images, the model predicts the probability of a fire occurring within a defined time frame like 1 month, 3 months, or 6 months. The classifications should be "High Fire Risk," "Moderate Risk," or "No Risk."
 
 **Required Skills:** Python. Experience with deep learning and machine learning.
