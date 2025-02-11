@@ -32,9 +32,9 @@ This project aims to develop a deep-learning model that predicts wildfire risk i
 
 1). Data pipeline development:
 
-Preprocessing satellite images: Band selection, geospatial cropping, cloud removal;
+Preprocessing satellite images: Band selection, geospatial cropping, cloud removal (For this step, we are mostly interested in analyzing Sentinel-2 data);
 
-Synthetic Aperture Radar (SAR) analysis: Extracting fuel moisture & terrain features;
+Synthetic Aperture Radar (SAR) analysis: Extracting fuel moisture & terrain features (For this step, we are mostly interested in extracting information like vegetation density and soil moisture from Sentinel-1 SAR data);
 
 Time-series weather data integration: Incorporating temperature, wind, and humidity.
 
@@ -44,7 +44,7 @@ A hybrid model such as CNN-LSTM that analyzes satellite data and time-series wea
 
 A web-based GIS dashboard to visualize fire-prone regions in Alaska;
 
-A report on model performance, fire risk metrics, and deployment feasibility.
+A report on model performance and fire risk metrics.
 
 3). About fire risk metrics:
 
