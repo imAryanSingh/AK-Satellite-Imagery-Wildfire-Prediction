@@ -1,4 +1,4 @@
-# Alaska-Wildfire-Prediction-Using-Satellite-Imagery
+# Alaska Wildfire Prediction Using Satellite Imagery
 
 **Mentors:** Arghya Kusum Das (akdas -at- alaska.edu) and Yali Wang (ywang35 -at- alaska.edu)
 
