@@ -52,7 +52,7 @@ Fire risk classification: This is the **minimum viable product (MVP)** of this p
 
 **Required Skills:** Python. Experience with deep learning and machine learning.
 
-**Code Challenge:** Experience with multi-band satellite imagery, geospatial data processing, and remote sensing.
+**Code Challenge:** Experience with multi-band satellite imagery, geospatial data processing (like ArcGIS Pro), and remote sensing.
 
 **Source Code:** [https://github.com/YaliWang2019/AK-Satellite-Imagery-Wildfire-Prediction](https://github.com/YaliWang2019/AK-Satellite-Imagery-Wildfire-Prediction) (New Project)
 
