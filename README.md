@@ -58,3 +58,6 @@ Fire risk classification: This is the **minimum viable product (MVP)** of this p
 
 **Discussion Forum:** [https://github.com/YaliWang2019/AK-Satellite-Imagery-Wildfire-Prediction/discussions](https://github.com/YaliWang2019/AK-Satellite-Imagery-Wildfire-Prediction/discussions)
 
+**Effort:** 350 Hours
+
+**Difficulty Level:** Medium/Hard
